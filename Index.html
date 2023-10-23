@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <!-- Add Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Custom CSS for small screens */
+        @media (max-width: 768px) {
+            .custom-container {
+                padding: 15px;
+            }
+            .custom-card {
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5 custom-container">
+        <div class="row">
+            <!-- Left Side - Image -->
+            <div class="col-lg-8">
+                <img src="https://img.freepik.com/free-photo/outdoor-yoga_23-2148077617.jpg?w=1380&t=st=1698063576~exp=1698064176~hmac=9b1b0649cf72ab14fbff7c41940e628c1c82da57d83f6144054054e8e7a9275a" alt="Image" class="img-fluid">
+            </div>
+            <!-- Right Side - Login Form -->
+            <div class="col-lg-4 custom-card">
+                <div class="card">
+                    <div class="card-header text-center">Login</div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="email">Email or Username</label>
+                                <input type="text" class="form-control" id="email" placeholder="Enter your email or username" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block btn-rounded" style="border-radius: 56px;">Log In</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
